@@ -1,0 +1,47 @@
+.slick-prev{
+    background-image: url("images/ns.png");
+    width: 42px;
+    height: 40px;
+    z-index: 9999999;
+    background-repeat: no-repeat;
+}
+
+
+.slick-prev:before{
+    font-size: 0px;
+
+}
+.slick-prev:hover, .slick-prev:focus {
+    color: transparent;
+    outline: none;
+    background: url("images/ns.png");
+}
+.slick-next{
+    background-image: url("images/backs.png");
+    width: 42px;
+    height: 40px;
+    z-index: 9999999;
+    background-repeat: no-repeat;
+
+}
+
+.slick-next:before{
+    font-size: 0px;
+
+}
+
+.slick-next:hover, .slick-next:focus  {
+    color: transparent;
+    outline: none;
+    background: url("images/backs.png");
+}
+.sl{
+
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-bottom: 37px;
+
+}
+.ui-icon{
+    top: 40%;
+}
